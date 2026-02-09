@@ -1,3 +1,3 @@
 pip install -r requirements.txt
 
-python main.py --folder docs --api-key
+python main.py --folder docs --api-key ...
