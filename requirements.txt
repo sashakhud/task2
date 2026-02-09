@@ -1,0 +1,19 @@
+requests>=2.31.0
+PyMuPDF>=1.23.0
+Pillow>=10.0.0
+numpy>=1.24.0
+opencv-python>=4.8.0
+
+# ── OCR-движки (установите хотя бы один) ──────────────────────────
+# РЕКОМЕНДУЕМЫЙ: PaddleOCR (лучший для фото документов/книг)
+# ВАЖНО: версии paddlepaddle и paddleocr должны быть совместимы!
+# Проверенные комбинации:
+#   paddlepaddle==3.2.0 + paddleocr==3.3.0
+#   paddlepaddle==3.3.0 + paddleocr==3.4.0
+paddlepaddle==3.2.0
+paddleocr==3.3.0
+
+# Альтернативные (если PaddleOCR не подходит):
+# pytesseract>=0.3.10    # + установить Tesseract-OCR отдельно
+# easyocr>=1.7.0
+
